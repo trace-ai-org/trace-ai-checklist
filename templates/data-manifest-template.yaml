@@ -1,0 +1,41 @@
+dataset:
+  id: "trace-ai-dataset-example"
+  doi_or_url: ""
+  license: "CC-BY-4.0"
+  description: ""
+  custodians: []
+sources:
+  - name: "instrument logs"
+    path_or_uri: ""
+    modality: "time-series"
+    harmonization: "units aligned to SI; timestamps UTC"
+  - name: "literature extraction"
+    path_or_uri: ""
+    modality: "text-extracted"
+    harmonization: "scaled to common conversion basis"
+processing:
+  code_repo: ""
+  entrypoint: "scripts/build_dataset.py"
+  version: ""
+  hash_or_commit: ""
+  deterministic: true
+  equivalence_checks:
+    - "row counts match expected (n= )"
+    - "ID set equality verified"
+quality_control:
+  replicate_strategy: "repeat top candidates and boundary cases"
+  calibration_checks: "weekly flow/calibration references"
+  anomaly_policy: "flag; do not drop without review"
+features:
+  - name: ""
+    type: ""
+    source: ""
+    generation: ""
+    notes: ""
+negative_data_policy:
+  included: true
+  description: "retain informative failures; tag as negative"
+access:
+  landing_page: ""
+  api: ""
+  contact: ""

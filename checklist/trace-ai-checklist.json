@@ -1,0 +1,24 @@
+{
+  "version": "0.1.0",
+  "date": "2026-01-29",
+  "items": [
+    { "id": "A1", "section": "Data Management", "text": "Multi-source harmonization steps and remaining incompatibilities are described.", "status": null, "evidence": null, "notes": null },
+    { "id": "A2", "section": "Data Management", "text": "Processing code regenerates the modeling dataset from raw sources; dataset equivalence checks are stated.", "status": null, "evidence": null, "notes": null },
+    { "id": "A3", "section": "Data Management", "text": "All input features/descriptors are defined with their generation pipeline.", "status": null, "evidence": null, "notes": null },
+    { "id": "A4", "section": "Data Management", "text": "Dataset identifiers, access details, and core metadata for reuse are provided.", "status": null, "evidence": null, "notes": null },
+    { "id": "A5", "section": "Data Management", "text": "Policy on negative/failed/suboptimal experiments is stated; informative negatives are included when possible.", "status": null, "evidence": null, "notes": null },
+    { "id": "B1", "section": "Model Development", "text": "Full model specification (architecture, hyperparameters, objectives, versions/checkpoints) is documented.", "status": null, "evidence": null, "notes": null },
+    { "id": "B2", "section": "Model Development", "text": "Data-split strategy prevents information leakage; split rules and seeds are reported.", "status": null, "evidence": null, "notes": null },
+    { "id": "B3", "section": "Model Development", "text": "Performance metrics with confidence intervals are reported to avoid best-only results.", "status": null, "evidence": null, "notes": null },
+    { "id": "B4", "section": "Model Development", "text": "Metric choice and multi-objective trade-offs are justified (e.g., Pareto fronts or weighting).", "status": null, "evidence": null, "notes": null },
+    { "id": "B5", "section": "Model Development", "text": "Uncertainty quantification method, calibration, and how UQ is used in decisions are described.", "status": null, "evidence": null, "notes": null },
+    { "id": "C1", "section": "Workflow Integration", "text": "Agent policy is specified with objectives, constraints, acquisition/reward functions, stochastic sources, and fixed parameters (config or pseudocode).", "status": null, "evidence": null, "notes": null },
+    { "id": "C2", "section": "Workflow Integration", "text": "Level of autonomy and human oversight are declared; interventions/overrides logged with frequency and impact.", "status": null, "evidence": null, "notes": null },
+    { "id": "C3", "section": "Workflow Integration", "text": "Stopping criteria and anomaly/failure handling are defined; aborted runs/exclusions/post hoc corrections are reported.", "status": null, "evidence": null, "notes": null },
+    { "id": "C4", "section": "Workflow Integration", "text": "Safety bounds, interlocks, shutdown mechanisms, and guardrails preventing unsafe experiments are described.", "status": null, "evidence": null, "notes": null },
+    { "id": "C5", "section": "Workflow Integration", "text": "Traceable record of the campaign trajectory is maintained (logs or representative segments for statistical reproducibility).", "status": null, "evidence": null, "notes": null },
+    { "id": "D1", "section": "Executable Artifacts", "text": "Executable tutorials or notebooks illustrate key elements of data management, model development, and workflow integration.", "status": null, "evidence": null, "notes": null },
+    { "id": "D2", "section": "Executable Artifacts", "text": "Each tutorial/notebook links to the relevant manuscript sections and checklist items and includes versioning info.", "status": null, "evidence": null, "notes": null },
+    { "id": "D3", "section": "Executable Artifacts", "text": "Execution environment is documented (container image, lockfile, or environment spec) to mitigate dependency and API drift.", "status": null, "evidence": null, "notes": null }
+  ]
+}
