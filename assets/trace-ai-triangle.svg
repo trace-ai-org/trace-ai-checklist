@@ -1,14 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="520" viewBox="0 0 480 520">
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520">
   <style>
-    .edge { stroke: #111; stroke-width: 4; fill: none; }
+    .edge { stroke: #111; stroke-width: 5; fill: none; }
     .label { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 22px; fill: #111; text-anchor: middle; }
     .center { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 20px; fill: #111; text-anchor: middle; }
   </style>
-  <polygon class="edge" points="240,40 60,440 420,440"/>
-  <text class="label" x="240" y="28">Transparent Reporting</text>
-  <text class="label" x="240" y="68">TRACE-AI</text>
-  <text class="label" x="240" y="485">Workflow</text>
-  <text class="label" x="40" y="300" transform="rotate(-60 40 300)">Data</text>
-  <text class="label" x="440" y="300" transform="rotate(60 440 300)">Model</text>
-  <text class="center" x="240" y="250">Agentic Catalysis</text>
+  <!-- Equilateral triangle: base 400, height ~346 -->
+  <polygon class="edge" points="260,94 60,440 460,440"/>
+
+  <!-- Top annotations without overlap -->
+  <text class="label" x="260" y="46">Transparent Reporting</text>
+  <text class="label" x="260" y="78">TRACE-AI</text>
+
+  <!-- Edge labels -->
+  <text class="label" x="148" y="270" transform="rotate(-60 148 270)">Data</text>
+  <text class="label" x="372" y="270" transform="rotate(60 372 270)">Model</text>
+  <text class="label" x="260" y="492">Workflow</text>
+
+  <!-- Center -->
+  <text class="center" x="260" y="320">Agentic Catalysis</text>
 </svg>
