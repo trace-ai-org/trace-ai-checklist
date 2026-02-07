@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 — 2026-02-07
+- Updated checklist item wording per Table 1 (TRACE-AI publication checklist) and clarified tutorial environment expectations.
+- Bumped checklist version/date in markdown, JSON, README, and getting-started guide.
+
 ## 0.1.0 — 2026-01-29
 - Initial public checklist (A1–D3) aligned to TRACE-AI manuscript.
 - Added machine-readable JSON checklist.

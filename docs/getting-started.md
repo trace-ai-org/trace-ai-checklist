@@ -41,7 +41,7 @@ project/
 - Dropping anomalies without logging rationale (violates A1/A5/C3).  
 
 ## Versioning
-- Current checklist version: **0.1.0 (2026-01-29)**.  
+- Current checklist version: **0.1.1 (2026-02-07)**.  
 - Track changes in `CHANGELOG.md`; cite the version you used in manuscripts.  
 
 ## License and reuse

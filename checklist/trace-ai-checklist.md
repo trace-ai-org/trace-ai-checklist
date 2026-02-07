@@ -1,31 +1,33 @@
 # TRACE-AI Publication Checklist
 
-Version: 0.1.0  
-Date: 2026-01-29  
+Table 1. TRACE-AI publication checklist for Transparent Reporting for Agentic Catalysis Enabled by Artificial Intelligence. This is a living, versioned community standard maintained at https://github.com/trace-ai-community/trace-ai-checklist.
+
+Version: 0.1.1  
+Date: 2026-02-07  
 Status values: `Y` = yes / satisfied, `N` = no / missing, `N-A` = not applicable (explain why).
 
 Fill this table for every manuscript or dataset that claims TRACE-AI alignment. Link each item to the exact evidence (manuscript section, figure, SI file, repo path, or DOI).
 
 | ID | Item (what must be findable/verifiable) | Status (Y/N/N-A) | Evidence (section/link) | Notes |
 | --- | --- | --- | --- | --- |
-| A1 | Multi-source harmonization steps and remaining incompatibilities are described (semantic and numerical). |  |  |  |
-| A2 | Processing code regenerates the modeling dataset from raw sources; dataset equivalence checks (counts/IDs) are stated. |  |  |  |
-| A3 | All input features/descriptors are defined with their generation pipeline. |  |  |  |
-| A4 | Dataset identifiers, access details, and core metadata for reuse are provided. |  |  |  |
-| A5 | Policy on negative/failed/suboptimal experiments is stated; informative negatives are included when possible. |  |  |  |
-| B1 | Full model specification (architecture, hyperparameters, objectives, versions/checkpoints) is documented. |  |  |  |
-| B2 | Data-split strategy prevents information leakage; split rules + seeds are reported. |  |  |  |
-| B3 | Performance metrics with confidence intervals are reported to avoid best-only results. |  |  |  |
-| B4 | Metric choice and multi-objective trade-offs are justified (e.g., Pareto fronts or weighting). |  |  |  |
-| B5 | Uncertainty quantification method, calibration, and how UQ is used in decisions are described. |  |  |  |
-| C1 | Agent policy is specified (objectives, constraints, acquisition/reward functions, stochastic sources, fixed params) with config or pseudocode. |  |  |  |
-| C2 | Level of autonomy and human oversight are declared; interventions/overrides logged with frequency and impact. |  |  |  |
-| C3 | Stopping criteria plus anomaly/failure handling are defined; aborted runs/exclusions/post hoc corrections are reported. |  |  |  |
-| C4 | Safety bounds, interlocks, shutdown mechanisms, and guardrails preventing unsafe experiments are described. |  |  |  |
-| C5 | Traceable record of campaign trajectory is maintained (full log or representative segments supporting statistical reproducibility). |  |  |  |
-| D1 | Executable tutorials/notebooks cover data management, model development, and workflow integration. |  |  |  |
-| D2 | Tutorials/notebooks are linked to relevant manuscript sections and checklist items with version info. |  |  |  |
-| D3 | Execution environment is documented (container image, lockfile, or environment spec) to mitigate dependency/API drift. |  |  |  |
+| A1 | Describe semantic and numerical harmonization steps and unresolved issues, if using multi-source data and data types (e.g., raw data files, spreadsheets, published literature). |  |  |  |
+| A2 | Provide processing code that regenerates the ML-ready dataset from source data, and clearly state how dataset equivalence is checked (record counts/IDs, etc). |  |  |  |
+| A3 | Define all input features/descriptors and their generation pipeline. |  |  |  |
+| A4 | Provide dataset identifiers, access details, and core metadata sufficient for reuse. |  |  |  |
+| A5 | State policy on negative/failed/suboptimal experiments and include if informative. |  |  |  |
+| B1 | Document full model specification (architecture, hyperparameters, objective, versions). |  |  |  |
+| B2 | Describe data-split strategies implemented to prevent information leakage. |  |  |  |
+| B3 | Clearly state metrics applied to assess model performance with confidence intervals to avoid best-only reporting. |  |  |  |
+| B4 | Justify the choice of metrics and examine trade-offs explicitly for multi-objective tasks. |  |  |  |
+| B5 | Describe the uncertainty quantification method, its calibration and utilization. |  |  |  |
+| C1 | Specify the agent policy and objectives, constraints, acquisition or reward functions, and provide configuration details or pseudocode with versioning including sources of stochasticity and which parameters are fixed across runs. |  |  |  |
+| C2 | Declare the level of autonomy and human oversight, and document any interventions or overrides during the campaign, including their frequency, rationale, and impact on subsequent agent behavior. |  |  |  |
+| C3 | Define stopping criteria and anomaly or failure handling procedures, and report any aborted runs, exclusions, or post hoc corrections. |  |  |  |
+| C4 | Describe safety bounds, interlocks, and shutdown mechanisms, and explain how the agent is prevented from executing unsafe experiments. |  |  |  |
+| C5 | Maintain a traceable record of the campaign trajectory, with summaries or representative segments when full iteration-level detail is impractical, sufficient to support the statistical reproducibility of agent behavior. |  |  |  |
+| D1 | Provide executable tutorials or notebooks illustrating key elements of data management, model development, and workflow integration. |  |  |  |
+| D2 | Link each tutorial or notebook to the relevant manuscript sections and checklist items, and include versioning information where feasible. |  |  |  |
+| D3 | Document the execution environment required to run the tutorials (e.g., container images, lockfiles, or environment specifications) to mitigate dependency and API drift. |  |  |  |
 
 ## How to use
 1) Clone this repo; copy this file into your project or supplement.  
@@ -37,4 +39,3 @@ Fill this table for every manuscript or dataset that claims TRACE-AI alignment. 
 - Evidence should resolve to a specific, open artifact (section number, SI page, notebook path, log file, or DOI).  
 - For `N-A`, state the domain reason (e.g., “no physical experiments performed”).  
 - For multi-lab or distributed autonomy (A5), include cross-site data exchange and governance details in C1–C5 notes.
-

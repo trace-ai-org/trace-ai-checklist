@@ -30,7 +30,7 @@ Tools and templates that accompany the TRACE-AI manuscript (Transparent Reportin
 5. Submit via the provided issue template or your journal’s SI.
 
 ## Versioning
-- Current version: 0.1.0 (2026-01-29). See `CHANGELOG.md` for updates. Cite the version used in your manuscript.
+- Current version: 0.1.1 (2026-02-07). See `CHANGELOG.md` for updates. Cite the version used in your manuscript.
 
 ## Contributing
 Pull requests and issues are welcome (check the issue template). Please keep changes aligned with the TRACE-AI guideline scope (data, model, workflow transparency for agentic catalysis).
