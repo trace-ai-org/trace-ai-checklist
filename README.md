@@ -2,7 +2,11 @@
 
 Tools and templates that accompany the TRACE-AI manuscript (Transparent Reporting for Agentic Catalysis Enabled by AI). Use these files to prepare the publication checklist, agent cards, data manifests, and autonomy logs that make agentic catalysis campaigns auditable.
 
-![TRACE-AI triangle](assets/trace-ai-triangle.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/trace-ai-triangle-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/trace-ai-triangle-light.svg">
+  <img alt="TRACE-AI triangle" src="assets/trace-ai-triangle-light.svg" width="520">
+</picture>
 
 ## Contents
 - `checklist/trace-ai-checklist.md` — canonical checklist table (A1–D3) ready to fill.  
