@@ -17,7 +17,7 @@ Tools and templates that accompany the TRACE-AI manuscript (Transparent Reportin
 - `docs/getting-started.md` — quick instructions for authors, reviewers, and editors.  
 - `docs/manuscript-mapping.md` — suggests where to place evidence in the manuscript/SI.  
 - `.github/ISSUE_TEMPLATE/trace-ai-checklist.md` — issue template for submitting filled checklists.  
-- `assets/trace-ai-triangle.svg` — simple figure illustrating the Data–Model–Workflow triad.  
+- `assets/trace-ai-triangle-*.svg` — simple figure illustrating the Data–Model–Workflow triad.  
 - `LICENSE` — CC-BY-4.0 for all text/templates.  
 
 ## Quickstart
@@ -34,7 +34,7 @@ Tools and templates that accompany the TRACE-AI manuscript (Transparent Reportin
 5. Submit via the provided issue template or your journal’s SI.
 
 ## Versioning
-- Current version: 0.1.1 (2026-02-07). See `CHANGELOG.md` for updates. Cite the version used in your manuscript.
+- Current version: 2.0.0 (2026-02-07). See `CHANGELOG.md` for updates. Cite the version used in your manuscript.
 
 ## Contributing
 Pull requests and issues are welcome (check the issue template). Please keep changes aligned with the TRACE-AI guideline scope (data, model, workflow transparency for agentic catalysis).
