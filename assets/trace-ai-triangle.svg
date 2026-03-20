@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520">
   <style>
-    .edge { stroke: #111; stroke-width: 5; fill: none; }
-    .label { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 22px; fill: #111; text-anchor: middle; }
-    .center { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 20px; fill: #111; text-anchor: middle; }
+    .edge { stroke: currentColor; stroke-width: 5; fill: none; }
+    .label { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 22px; fill: currentColor; text-anchor: middle; }
+    .center { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 20px; fill: currentColor; text-anchor: middle; }
   </style>
   <!-- Equilateral triangle: base 400, height ~346 -->
   <polygon class="edge" points="260,94 60,440 460,440"/>
