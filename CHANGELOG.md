@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0 — 2026-04-04
+- Revised checklist item wording across all sections (A1–D3) for clarity and precision.
+- Renamed section D to "Tutorials, Notebooks, and Executable Artifacts".
+- Bumped checklist version/date in markdown, JSON, CHANGELOG, README, and getting-started guide.
+
 ## 0.1.1 — 2026-02-07
 - Updated checklist item wording per Table 1 (TRACE-AI publication checklist) and clarified tutorial environment expectations.
 - Bumped checklist version/date in markdown, JSON, README, and getting-started guide.
