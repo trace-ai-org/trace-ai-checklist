@@ -7,8 +7,8 @@
   <polygon class="edge" points="260,94 60,440 460,440"/>
   <text class="label" x="260" y="46">Transparent Reporting</text>
   <text class="label" x="260" y="78">TRACE-AI</text>
-  <text class="label" x="148" y="270" transform="rotate(-60 148 270)">Data</text>
-  <text class="label" x="372" y="270" transform="rotate(60 372 270)">Model</text>
-  <text class="label" x="260" y="492">Workflow</text>
+  <text class="label" x="148" y="270" transform="rotate(-60 148 270)">Data Management</text>
+  <text class="label" x="372" y="270" transform="rotate(60 372 270)">Model Development</text>
+  <text class="label" x="260" y="492">Workflow Integration</text>
   <text class="center" x="260" y="320">Agentic Catalysis</text>
 </svg>
