@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use the TRACE-AI checklist, please cite it as below and cite the version used in your manuscript."
+title: "TRACE-AI Publication Checklist"
+authors:
+  - family-names: Xin
+    given-names: Hongliang
+version: 2.2.0
+date-released: 2026-06-12
+url: "https://github.com/trace-ai-org/trace-ai-checklist"
+license: CC-BY-4.0
