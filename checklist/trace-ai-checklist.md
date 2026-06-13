@@ -1,6 +1,6 @@
 # TRACE-AI Publication Checklist
 
-Table 1. TRACE-AI publication checklist for Transparent Reporting for Agentic Catalysis Enabled by Artificial Intelligence. This is a living, versioned community standard maintained at https://github.com/trace-ai-community/trace-ai-checklist.
+Table 1. TRACE-AI publication checklist for Transparent Reporting for Agentic Catalysis Enabled by Artificial Intelligence. This is a living, versioned community standard maintained at https://github.com/trace-ai-org/trace-ai-checklist.
 
 Version: 2.2.0
 Date: 2026-06-12
