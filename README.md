@@ -11,6 +11,7 @@ Tools and templates that accompany the TRACE-AI manuscript (Transparent Reportin
 ## Contents
 - `checklist/trace-ai-checklist.md` — canonical checklist table (A1–D3) ready to fill.  
 - `checklist/trace-ai-checklist.json` — machine-readable checklist for automation.  
+- `checklist/trace-ai-checklist.docx` — Word version of the publication checklist for authors who prefer to fill it in offline.  
 - `templates/agent-card-template.md` — describe each agent/policy.  
 - `templates/data-manifest-template.yaml` — capture dataset provenance and processing.  
 - `templates/autonomy-run-log-template.md` — log closed-loop runs, safety events, and outcomes.  
